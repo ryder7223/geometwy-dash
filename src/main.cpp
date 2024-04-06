@@ -17,14 +17,8 @@ class $modify(CCLabelBMFont) {
             {std::regex("N([aeiou])"), "Ny$1"},
             {std::regex("N([AEIOU])"), "Ny$1"},
             {std::regex("ove"), "uv"},
-            {std::regex("Tiny"), "Tynie :>"},
-            {std::regex("Showt"), "Smol :3"},
-            {std::regex("XW"), "Too big >_<"},
-            {std::regex("Wong"), "Looong :O"} //lmao
             
         };
-
-
 
         for (auto& rule : uwuMap) {
             owoStr = std::regex_replace(owoStr, rule.first, rule.second);

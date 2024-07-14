@@ -1,12 +1,17 @@
 {
-	"geode": "3.0.0",
-	"gd": "2.206",
-	"version": "v1.0.1.1",
+	"geode": "3.2.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
 	"id": "jojo989.geometwy_dash",
 	"name": "geometwy dash",
+	"version": "v1.0.2",
 	"developer": "jojo989",
 	"description": "makes your game very uwu!!",
-
+	
 	"settings": {
 		"owoo": {
 			"name": "final uwu",
